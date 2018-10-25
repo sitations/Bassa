@@ -12,7 +12,7 @@
 
 Automated Download Queue for Enterprise to take the best use of Internet bandwidth
 
-# About 
+# About - by abdulla
 Bassa solves the problem of wasting internet bandwidth by queuing a download if it is larger than a given threshold value in high traffic and when the traffic is low, it completes the download of the files. After the files are downloaded, the users can get their files from the local servers which do not require external internet bandwidth.
 
 ## Main functionalities
@@ -29,7 +29,7 @@ Bassa solves the problem of wasting internet bandwidth by queuing a download if 
 
 Note: Windows users can check the installation guide [here](https://github.com/scorelab/Bassa/wiki/Windows-Installation-Guide).
 
-First clone the Repository 
+First clone the Repository
 ``` git clone https://github.com/scorelab/Bassa.git```
 
 ![gitclone](https://user-images.githubusercontent.com/28682735/35194406-2f6f08e2-fed9-11e7-8411-86d83bed6507.gif)
@@ -106,8 +106,8 @@ run `aria2c --enable-rpc`
 
 ### How to Use Bassa
 * After Setting up Bassa, Login/Register.There are two types of users in Bassa- (1) The Admin and (2) The Normal Users.
-* A user can add a link through the webapp and Bassa stores it in the local server right away. This way multiple users can add various links, but the downloads won’t start right away. 
-* The organisation admin can start the downloads at a time of his/her liking. 
+* A user can add a link through the webapp and Bassa stores it in the local server right away. This way multiple users can add various links, but the downloads won’t start right away.
+* The organisation admin can start the downloads at a time of his/her liking.
 * Then the users who had added links for certain files can download them from the local servers at a much higher speed.
 * You can even watch a video tutorial for the same on [Youtube](https://www.youtube.com/watch?v=NxS8T1EphCA)
 ### Autoformat JS with Prettier
@@ -121,5 +121,5 @@ Find more plugins [here](https://github.com/prettier/prettier#editor-integration
 ### Run UI unit tests
 ```
 	$ cd ui/
-	$ npm test OR $ yarn test 
+	$ npm test OR $ yarn test
 ```
